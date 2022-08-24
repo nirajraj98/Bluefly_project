@@ -135,6 +135,7 @@ function append(data){
         p2.innerText="$"+el.price;
         let p3=document.createElement("p")
         p3.innerText=el.save
+        
         p3.style.color="red";
         div2.append(p1,p2,p3);
 
@@ -142,6 +143,7 @@ function append(data){
         btn2.setAttribute("class","NEW_ARRIVALS_btn2")
         btn2.innerText="Quick View";
         btn2.style.color="white"
+        
         btn2.style.backgroundColor="black"
 
        

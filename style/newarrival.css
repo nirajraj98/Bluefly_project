@@ -19,9 +19,13 @@
   border: 1px solid green;
   /* width:19%; */
 }
-.NEW_ARRIVALS_div > img:hover {
+/* .NEW_ARRIVALS_div > img:hover {
   background-color: blue;
   width: 100%;
+} */
+.NEW_ARRIVALS_div:hover NEW_ARRIVALS_btn2{
+display:block;
+
 }
 .NEW_ARRIVALS_div img {
   width: 100%;
@@ -51,6 +55,7 @@
 
   
 }
+
 #NEW_ARRIVALS_btn1 button{
   text-align: center;
   width:10%;
@@ -69,9 +74,18 @@
   position: absolute;
 }
 #NEW_ARRIVALS_img:hover + .NEW_ARRIVALS_btn2{
-  background-color : green;
+  /* background-color : green; */
   display:block;
 }
+.NEW_ARRIVALS_btn2{
+  text-align: center;
+  margin-left:11px;
+  width:16%;
+  font-size:15px;
+  padding:19px;
+  padding-left:10px; 
+   color:red;
+ } 
 
 .NEW_ARRIVALS_btn2:hover{
   display: block;

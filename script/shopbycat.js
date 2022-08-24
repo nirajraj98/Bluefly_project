@@ -8,6 +8,7 @@ let obj = [
     image: "https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1313395700_RLLZ_2_large.jpg?v=1660342242",
     title: "PUMPUS & HEELS",
   },
+  
   {
     image: "https://cdn.shopify.com/s/files/1/0248/3473/6191/products/81mks7hegzl._ul1500_19fda006-368e-4686-9b3f-9e12d3befea6_large.jpg?v=1654138030",
     title: "HANDBAGS",

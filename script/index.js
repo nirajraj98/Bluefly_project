@@ -9,6 +9,7 @@ doo.innerHTML=slide()
 // doo.innerHTML=slidejs()
 let counter = 1;
 let id;
+
 const settime = (counter) => {
     id = setInterval(function () {
         document.getElementById('radio' + counter).checked = true;

@@ -13,6 +13,7 @@ let newarrival=[
         price:"324.99",
         save:"Save 35%"
     },
+    
     {
         img:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/noutH4ms3oVDrEiWN5wgtAevJT1SlmGy-25_large.jpg?v=1661228230",
         title:"BECCA WOMENS MID RISE STRETCH BOOTCUT JEANS",

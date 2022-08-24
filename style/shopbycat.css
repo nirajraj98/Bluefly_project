@@ -15,6 +15,7 @@
   grid-template-columns: repeat(5, 1fr);
   margin: auto;
 }
+
 #SHOP_BY_CATEGORY_div {
   border: 1px solid green;
   /* width:19%; */
