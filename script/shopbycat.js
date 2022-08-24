@@ -57,12 +57,15 @@ function append(data){
         img.setAttribute("id","SHOP_BY_CATEGORY_img")
 
         img.src=el.image;
+        let div2=document.createElement("div");
+        div2.setAttribute("id","div2")
         let title=document.createElement("h4")
         title.innerText=el.title;
         title.setAttribute("id","SHOP_BY_CATEGORY_tiltle")
+        div2.append(title)
         
 
-        div.append(img,title)
+        div.append(img,div2)
         CATEGORY.append(div)
 
 

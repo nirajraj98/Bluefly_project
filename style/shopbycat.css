@@ -38,3 +38,16 @@
   justify-content: center;
   margin: auto;
 }
+#SHOP_BY_CATEGORY_div:hover{
+  background-color: blue;
+
+}
+#SHOP_BY_CATEGORY_tiltle{
+  position:relative;
+  border:1px solid green;
+
+}
+/* #div2{
+  border:1px solid green;
+
+} */

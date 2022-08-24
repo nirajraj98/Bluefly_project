@@ -15,10 +15,7 @@
   grid-template-columns: repeat(5, 1fr);
   margin: auto;
 }
-.NEW_ARRIVALS_div {
-  border: 1px solid green;
-  /* width:19%; */
-}
+
 /* .NEW_ARRIVALS_div > img:hover {
   background-color: blue;
   width: 100%;
@@ -44,12 +41,12 @@ display:block;
 #NEW_ARRIVALS_price{
     display:flex;
     justify-content: space-around;
-    border:1px solid blue;
+    /* border:1px solid blue; */
     font-size: 22px;
 }
 
 #NEW_ARRIVALS_btn1{
-  border:1px solid red;
+  /* border:1px solid red; */
   margin:auto;
   text-align: center;
 
