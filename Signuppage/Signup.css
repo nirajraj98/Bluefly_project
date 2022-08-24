@@ -1,0 +1,64 @@
+#signup{
+    width: 33%;
+    height: 750px;
+    /* border: 1px solid black; */
+    margin: auto;
+}
+
+#heading{
+   text-align: center;
+   font-size: 50px;
+   font-family: "Lucida Console", "Courier New", monospace;
+}
+
+#signup input{
+    padding: 15px;
+    width: 90%;
+    margin-top: -20px;
+    letter-spacing: 3px;
+}
+
+#signup h4 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+#sub{
+    margin-left: 70px;
+}
+
+#submit{
+    background-color: black;
+    color: white;
+    margin-left: 20px;
+    
+}
+
+#lower{
+    display: flex;
+    gap: 30px;
+    width: 100%;
+    /* border: 1px solid black; */
+    margin-top: -40px;
+   
+}
+#lower img{
+    width: 478px;
+    height: 430px;
+}
+#lower h2{
+    text-align: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+#lower p{
+    text-align: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+#lower button{
+    margin: auto;
+    background-color: white;
+    color: black;
+    font-family: "Lucida Console", "Courier New", monospace;
+    padding: 10px;
+    margin-left: 30%;
+    border: 0.1px solid black;
+
+}
