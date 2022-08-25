@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./product.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/689b6f6569.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1>All Clothing</h1>
+   ]
+    <select id="select"  onchange="filter()" >
+        <option id="low"  value="low" >Low to High</option>
+        <option id="high"  value="high"  >High to Low</option>
+        <option id="A"  value="A" >A to Z</option>
+        <option id="Z"  value="Z" >Z to A</option>
+     </select>
+    
+    <h4>Showing 98602 results for "All Clothing"</h4> 
+    <div id="allproduct" >
+       
+      <div id="filter" >
+        <div >
+            <button onclick="dropdown()" ondblclick="dropdown1()" >  <span><i class="fa-solid fa-angle-down"></i></span> CATEGORY  </button>
+        <ul id="list" >
+            <li> <input type="checkbox">  Men</li>
+            <li><input type="checkbox">  Women</li>
+            <li><input type="checkbox"> Teenager</li>
+        </ul>
+        </div>
+        <div>
+            <button onclick="dropdown2()" ondblclick="dropdown3()" >  <i class="fa-solid fa-angle-down"></i> SUB CATEGORY </button>
+            <ul id="list1" >
+                <li><input type="checkbox">WOMEN'S COCKTAIL PARTY DRESSES2364</li>
+                <li><input type="checkbox">WOMEN'S DAY DRESSES8094</li>
+                <li><input type="checkbox">WOMEN'S FORMAL DRESSES80</li>
+                <li><input type="checkbox">WOMEN'S BLAZER COATS & JACKETS1638</li>
+                <li><input type="checkbox">WOMEN'S WORK DRESSES6</li>
+                <li><input type="checkbox">WOMEN'S DENIM COATS & JACKETS97</li>
+                <li><input type="checkbox">MEN'S DENIM BOOTCUT JEANS2</li>
+             
+            </ul>
+        </div>
+        <div>
+            <button onclick="dropdown4()" ondblclick="dropdown5()" >  <i class="fa-solid fa-angle-down"></i> BRAND </button>
+            <ul id="list2" >
+                <li><input type="checkbox">Armani17</li>
+                <li><input type="checkbox">Alexander McQueen25</li>
+                <li><input type="checkbox">Bottega Veneta35</li>
+                <li><input type="checkbox">Calvin Klein20</li>
+                <li><input type="checkbox">Bottega Veneta35</li>
+                <li><input type="checkbox">Chloé16</li>
+                <li><input type="checkbox">Celine57</li>
+                <li><input type="checkbox">Dolce & Gabbana48</li>
+            </ul>
+        </div>
+        <div>
+            <button onclick="dropdown6()" ondblclick="dropdown7()" >  <i class="fa-solid fa-angle-down"></i> COLOR </button>
+            <ul id="list3" >
+                <li><input type="checkbox">Beige34</li>
+                <li><input type="checkbox">Black589</li>
+                <li><input type="checkbox">Blue180</li>
+                <li><input type="checkbox">Brown628</li>
+                <li><input type="checkbox">Green65</li>
+                <li><input type="checkbox">Grey138</li>
+                <li><input type="checkbox">Multi557</li>
+                <li><input type="checkbox"> Orange9</li>
+            </ul>
+        </div>
+        <div>
+            <button onclick="dropdown8()" ondblclick="dropdown9()" >  <i class="fa-solid fa-angle-down"></i> SIZE </button>
+            <ul id="list4" >
+                <li><input type="checkbox">57mm / 17mm / 140mm1</li>
+                <li><input type="checkbox">54mm / 18mm / 145mm2</li>
+                
+            </ul>
+        </div>
+        <div>
+            <button onclick="dropdown10()" ondblclick="dropdown11()" >  <i class="fa-solid fa-angle-down"></i> CLOTHING SIZE </button>    
+                <ul id="list5" >
+                    <li><input type="checkbox">Shield4</li>
+                    <li><input type="checkbox">Regular 0 (XS)18514</li>
+                    <li><input type="checkbox">Regular 00 (XXS)2796</li>
+                    <li><input type="checkbox">Regular 6 (S)8252</li>
+                <li><input type="checkbox">Rectangular18</li>
+                <li><input type="checkbox">Regular L3</li>
+                <li><input type="checkbox">Regular M1</li>
+                <li><input type="checkbox">Round15</li>
+                </ul>
+            </div>
+            <div>
+                <button onclick="dropdown12()" ondblclick="dropdown13()" >  <i class="fa-solid fa-angle-down"></i> MENS PANYS SIZE</button>
+                <ul id="list6" >
+                    <li><input type="checkbox">01</li>
+                    <li><input type="checkbox">11</li>
+                    <li><input type="checkbox">30 x 3246</li>
+                    <li><input type="checkbox">30 x 3467</li>
+                    <li><input type="checkbox">31 x 3017</li>
+                    <li><input type="checkbox">31 x 349</li>
+                </ul>
+            </div>
+            <div>
+                <button onclick="dropdown14()" ondblclick="dropdown15()" >  <i class="fa-solid fa-angle-down"></i> COLOR PANT</button>
+            <ul id="list7" >
+                <li><input type="checkbox">Beige2620</li>
+                <li><input type="checkbox">Black20857</li>
+                <li><input type="checkbox">Green5919</li>
+                <Li><input type="checkbox">Pink7449</Li>
+                <Li><input type="checkbox">Purple2907</Li>
+                <Li><input type="checkbox">Yellow2581</Li>
+                <Li><input type="checkbox">White10081</Li>
+                <Li><input type="checkbox">Purple2907</Li>
+            </ul>
+        </div>
+        <div>
+            <button onclick="dropdown16()" ondblclick="dropdown17()" >  <i class="fa-solid fa-angle-down"></i> PRICE</button>
+        <ul id="list8" >
+            <li><input type="checkbox">Preowned - Fair3504</li>
+            <li><input type="checkbox">New95098</li>
+
+        </ul>
+    </div>
+    <div>
+        <button onclick="dropdown18()" ondblclick="dropdown19()" >  <i class="fa-solid fa-angle-down"></i> INTERNATIONAL BRAND </button>
+        <ul id="list9" >
+            <li><input type="checkbox">WOMEN'S COCKTAIL PARTY DRESSES2364</li>
+            <li><input type="checkbox">WOMEN'S DAY DRESSES8094</li>
+            <li><input type="checkbox">WOMEN'S FORMAL DRESSES80</li>
+            <li><input type="checkbox">WOMEN'S BLAZER COATS & JACKETS1638</li>
+            <li><input type="checkbox">WOMEN'S WORK DRESSES6</li>
+            <li><input type="checkbox">WOMEN'S DENIM COATS & JACKETS97</li>
+            <li><input type="checkbox">MEN'S DENIM BOOTCUT JEANS2</li>
+         
+        </ul>
+    </div>
+    <div>
+        <button onclick="dropdown20()" ondblclick="dropdown21()" >  <i class="fa-solid fa-angle-down"></i> JEANS</button>
+    <ul id="list10" >
+        <li><input type="checkbox">Beige2620</li>
+        <li><input type="checkbox">Black20857</li>
+        <li><input type="checkbox">Green5919</li>
+        <Li><input type="checkbox">Pink7449</Li>
+        <Li><input type="checkbox">Purple2907</Li>
+        <Li><input type="checkbox">Yellow2581</Li>
+        <Li><input type="checkbox">White10081</Li>
+        <Li><input type="checkbox">Purple2907</Li>
+    </ul>
+</div>
+<div>
+    <button onclick="dropdown22()" ondblclick="dropdown23()" >  <i class="fa-solid fa-angle-down"></i> SUIT </button>
+    <ul id="list11" >
+        <li><input type="checkbox">Armani17</li>
+        <li><input type="checkbox">Alexander McQueen25</li>
+        <li><input type="checkbox">Bottega Veneta35</li>
+        <li><input type="checkbox">Calvin Klein20</li>
+        <li><input type="checkbox">Bottega Veneta35</li>
+        <li><input type="checkbox">Chloé16</li>
+        <li><input type="checkbox">Celine57</li>
+        <li><input type="checkbox">Dolce & Gabbana48</li>
+    </ul>
+</div>
+      </div>
+    
+     
+      <div id="product" >
+
+    </div>
+    </div>
+</body>
+</html>
+<script src="./Product.js" ></script>
