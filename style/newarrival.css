@@ -1,83 +1,76 @@
 #NEW_ARRIVALS{
-    padding:0px;
-    margin:0px;
+  padding:0px;
+  margin:0px;
 }
 
-#NEW_ARRIVALS_heading {
+#NEW_ARRIVALS_h4{
   text-align: center;
+  color: rgb(22, 21, 21);
 }
 
-#NEW_ARRIVALS_append {
-  display: grid;
-  width: 96%;
-
-  gap: 20px;
-  grid-template-columns: repeat(5, 1fr);
+#NEW_ARRIVALS{
+  display: flex;
+  gap:10px;
   margin: auto;
-}
-
-/* .NEW_ARRIVALS_div > img:hover {
-  background-color: blue;
-  width: 100%;
-} */
-.NEW_ARRIVALS_div:hover NEW_ARRIVALS_btn2{
-display:block;
-
-}
-.NEW_ARRIVALS_div img {
-  width: 100%;
-}
-/* #NEW_ARRIVALS_append > div:hover {
-  background-color: rgb(239, 248, 245);
-} */
-
-#NEW_ARRIVALS_tiltle {
-  text-align: center;
-}
-#NEW_ARRIVALS_img {
   justify-content: center;
-  margin: auto;
+  padding-bottom: 20px;
+}
+.NEW_ARRIVALS_div{
+  border:1px solid green;
+  /* display:flex; */
+  /* gap:3px; */
+  width:19%;
+
+
+}
+#NEW_ARRIVALS img{
+  width:100%
 }
 #NEW_ARRIVALS_price{
-    display:flex;
-    justify-content: space-around;
-    /* border:1px solid blue; */
-    font-size: 22px;
+  display:flex;
+  gap: 10px;
 }
-
-#NEW_ARRIVALS_btn1{
-  /* border:1px solid red; */
-  margin:auto;
+#NEW_ARRIVALS_price del {
+  border: 1px solid red;
+  margin-bottom:20px;
   text-align: center;
 
-  
 }
-
-#NEW_ARRIVALS_btn1 button{
+.NEW_ARRIVALSbtn2{
   text-align: center;
-  width:10%;
-  padding-bottom:30px;
-  justify-content: center;
-
-  margin:auto;
-  font-size:25px;
-  /* padding-top: 10px; */
-  padding-bottom:15px;
-
-}
-
-.NEW_ARRIVALS_btn2 {
-  display:none;
-  position: absolute;
-}
-#NEW_ARRIVALS_img:hover + .NEW_ARRIVALS_btn2{
-  /* background-color : green; */
-  display:block;
+  margin-left:20px;
+  width:80%;
+  font-size:15px;
+  padding:5px;
+  padding-left:10px; 
+   color:red;
 }
 .NEW_ARRIVALS_btn2{
+  display:none;
+}
+
+.NEW_ARRIVALS_div:hover NEW_ARRIVALS_btn2{
+  display:block;
+  }
+#NEW_ARRIVALS_img:hover + .NEW_ARRIVALS_btn2{
+      /* background-color : green; */
+      display:block;
+    }
+.NEW_ARRIVALS_btn2:hover{
+      display: block;
+      cursor: pointer;
+}
+.NEW_ARRIVALS_div{
+  position:relative;
+  cursor: pointer;
+}
+/* //2nd */
+.NEW_ARRIVALS_btn2{
+  position: absolute;
+  bottom: 150px;
   text-align: center;
   margin-left:11px;
-  width:16%;
+  width:300px;
   font-size:15px;
   padding:19px;
   padding-left:10px; 
@@ -101,4 +94,14 @@ display:block;
 .s{
   height: 46%;
   width: 0%;
+}
+
+#NEW_ARRIVALS_btn{
+  display:flex;
+  width:8%;
+  justify-content: center;
+  margin:auto;
+  padding:5px;
+  font-size:18px;
+  margin-bottom: 20px;
 }

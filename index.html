@@ -5,16 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SHOP_BY_CATEGORY</title>
-    
+    <link rel="shortcut icon" href="//cdn.shopify.com/s/files/1/0248/3473/6191/files/bluefly_ico_new_32x32.png?v=1571412434" type="image/png">
     <link rel="stylesheet" href="./style/index.css">
     <link rel="stylesheet" href="./style/shopbycat.css">
     <link rel="stylesheet" href="./style/newarrival.css">
     <link rel="stylesheet" href="./style/showimge.css">
     <link rel="stylesheet" href="./style/trending_now.css">
+    <link rel="stylesheet" href="./style/home_last.css">
+    <link rel="stylesheet" href="./style/slider2.css">
 </head>
 
 <body>
     <div>
+        <!-- SHOW SLIDER TEXT -->
+        <div id="slidertext"></div>
  <!-- slider -->
         <div id="slidingBanner-1">
             
@@ -66,26 +70,32 @@
         </div>
  <!-- NEW ARRIVALS -->
         <div>
+
+            <h1 id="NEW_ARRIVALS_h4" onclick="settime2()">NEW ARRIVALS</h1>
+            <button id="NEW_ARRIVALS_btn">VIEW ALL</button>
             <div id="NEW_ARRIVALS">
-                <h1 id="NEW_ARRIVALS_heading"> NEW ARRIVALS</h1> 
-                <div id="NEW_ARRIVALS_append"></div>
-                <div id="NEW_ARRIVALS_btn"></div>
+                
+            <div id=""></div>
 
             </div>
 
         </div>
+
+        
 <!-- TRENDING NOW -->
-        <div>
-            <div id="NEW_ARRIVALS">
-                <h1 id="NEW_ARRIVALS_heading"> NEW ARRIVAL</h1> 
-                <div id="NEW_ARRIVALS_append"></div>
-                <div id="NEW_ARRIVALS_btn"></div>
+       <div>
 
-            </div>
-           
-        </div>
-<!-- last -->
-        <div></div>
+    <h1 id="TRENDING_NOW_h4">TRENDING NOW</h1>
+    <button id="TRENDING_NOW_btn">VIEW ALL</button>
+    <div id="TRENDING_NOW">
+        
+    <div id="TRENDING_NOW"></div>
+
+    </div>
+
+</div>
+<!-- last image-->
+        <div id="home_last_page_image"></div>
     <!-- </div> -->
     
 </body>
@@ -94,3 +104,5 @@
 <script src="./script/shopbycat.js"></script>
 <script src="./script/newarrival.js"></script>
 <script src="./script/trending_now.js"></script>
+<script src="./script/home_last.js"></script>
+<!-- <script src="./script/slide22.js" type="module"></script> -->
