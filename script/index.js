@@ -6,6 +6,10 @@ document.getElementById("navbar").innerHTML=nav()
 
 
 doo.innerHTML=slide()
+
+import footer from "../shubham1/footer1.js"
+
+document.querySelector("#footer").innerHTML = footer()
 // doo.innerHTML=slidejs()
 
 //3rd
