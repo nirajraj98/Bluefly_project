@@ -1,0 +1,14 @@
+#checkout_image_detail_title p{
+    font-size:10px;
+}
+#checkout_image_detail_checkout_btn{
+    /* border:1px solid green; */
+    display:flex;
+    padding-bottom:60px;
+    
+}
+#checkout_image_detail_checkout_btn button{
+    width:12%;
+    height:auto;
+
+}

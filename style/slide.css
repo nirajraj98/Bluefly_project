@@ -1,0 +1,152 @@
+/* .dropbtn {
+  background-color: #3498db;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+} */
+
+/* .dropbtn:hover,
+.dropbtn:focus {
+  background-color: #2980b9;
+} */
+
+#mo{
+    position: fixed;
+    top:0px;
+    right: 60px;
+    display: none;
+    width: 430px;
+}
+
+.dropdown {
+  display: inline-block;
+}
+
+.dropdown-contents {
+  /* display: ; */
+  background-color: #666363;
+  min-width: 500px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-contents a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
+}
+
+#pro {
+  width: 95%;
+  height: 200px;
+  /* border: 1px solid red; */
+  padding: 10px;
+  overflow: auto;
+  background-color: rgb(205, 206, 212);
+}
+
+#pro > div {
+  width: 95%;
+  height: 100px;
+  display: flex;
+  /* border: 1px solid blue; */
+  padding: 5px;
+}
+
+#pro > div > img {
+  height: 100%;
+  width: 25%;
+}
+
+#delete {
+  height: 20px;
+  width: 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(202, 197, 197);
+  cursor: pointer;
+}
+#delete:hover {
+  background-color: whitesmoke;
+}
+#name {
+  color: black;
+}
+#price {
+  color: black;
+}
+#pro2 {
+  width: 500px;
+  height: 200px;
+  /* border: 1px solid yellowgreen; */
+  margin-top: 50px;
+  color: rgb(170, 171, 182);
+}
+#btnn {
+  width: 85%;
+  height: 40px;
+  background-color: rgb(62, 62, 109);
+  color: white;
+  cursor: pointer;
+  border-radius: 20px;
+  margin-left: 8%;
+  margin-top: 30px;
+}
+#btnn:hover {
+  background-color: #202340;
+}
+#btnn2 {
+  width: 45%;
+  height: 40px;
+  color: #202340;
+  cursor: pointer;
+  border-radius: 20px;
+  margin-left: 25%;
+  margin-top: 30px;
+  border-style: dotted;
+}
+#btnn2:hover {
+  background-color: rgb(27, 27, 44);
+  color: white;
+}
+#shoppingcart {
+  width: 100%;
+  height: auto;
+  padding: 10px 10px 10px 4px;
+
+  color: black;
+  font-family: sans-serif;
+  text-align: center;
+  background-color: rgb(240, 241, 247);
+}
+#close {
+  width: 30px;
+  height: 30px;
+  margin-left: 300px;
+  border-radius: 15px;
+  background-color: rgb(231, 226, 226);
+  border-color: rgb(172, 167, 167);
+  position: sticky;
+}
+#close:hover {
+  background-color: rgb(199, 193, 193);
+}
+
+#sum {
+  height: 20px;
+  width: 100%;
+  border: 1px solid red;
+  color: black;
+}

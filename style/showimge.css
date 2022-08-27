@@ -1,0 +1,57 @@
+#show_image{
+    display:flex; 
+    gap:20px;
+    width:94%;
+    height: 500px;
+    margin:auto;
+    margin-top:30px;
+    justify-content: space-between;
+    /* position:relative; */
+    /* width:33%; */
+    
+    
+}
+
+.show_image1{
+    background-image: url('https://cdn.shopify.com/s/files/1/0248/3473/6191/files/WEB_ASSET_2_540x.jpg?v=1650894933') ;
+    width: 32%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color:white;
+
+}
+
+.show_image2{
+    background-image: url('https://cdn.shopify.com/s/files/1/0248/3473/6191/files/WEB_ASSET_2_540x.jpg?v=1650894933');
+    width: 32%;
+    background-position: center;
+    background-repeat: no-repeat;
+    color:white;
+    background-size: cover;
+    
+}
+.show_image3{
+    background-image: url('https://cdn.shopify.com/s/files/1/0248/3473/6191/files/WEB_ASSET_2_540x.jpg?v=1650894933');
+    width: 32%;
+    background-position: center;
+    background-repeat: no-repeat;
+    color:white;
+    background-size: cover;
+}
+.show_image3 h4{
+    /* font-size: 500px; */
+    padding-top: -1px;
+
+}
+.show_image3_btn{
+    /* background-color: blue; */
+     /* position:static; */
+     padding:10px; 
+    font-size:18px; 
+   } 
+
+   #show_image div{
+    /* padding-bottom: 100px; */
+
+   }
