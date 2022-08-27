@@ -1,0 +1,26 @@
+#checkout_image_show{
+    display:flex;
+    gap:20px;
+    margin:auto;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.checkout_image_show_div{
+    width:30%;
+
+}
+.checkout_image_show_div img{
+    width:100%;
+}
+.checkout_image_show_btn{
+    width:80%;
+    display:flex;
+    margin:auto;
+    justify-content: center;
+    padding:10px;
+    border:rgb(224, 222, 222);
+    background-color: rgb(250, 239, 239);
+}
+#paddingrecvie{
+   margin:40px;
+}
