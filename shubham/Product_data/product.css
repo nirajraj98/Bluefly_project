@@ -1,0 +1,164 @@
+#allproduct{
+    width: 80%;
+    height: 1700px;
+    /* border: 1px solid black; */
+    margin-top: 150px;
+    margin: auto;
+    display: flex;
+}
+#filter{
+ width: 25%;
+ height: 600px;
+ /* border: 1px solid black; */
+}
+#list{
+    display: none; 
+    list-style-type: none;
+}
+
+#filter button{
+    width: 100%;
+    height: 40px;
+    /* border: 1px solid black; */
+    background-color: white;
+    border: none;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+   
+}
+#filter div li{
+    width: 100%;
+    font-family: "Lucida Console", "Courier New", monospace;
+    margin-top: 10px;
+}
+#filter div:hover{
+    background-color: rgb(220, 213, 213);
+}
+#filter div li:hover{
+    color: blueviolet;
+}
+ul{
+    width: 100%;
+    height: 140px;
+    overflow-y: auto;
+}
+#list1{
+    display: none;
+    list-style-type: none;
+}
+#list2{
+    display: none;
+    list-style-type: none;
+}
+#list3{
+    display: none;
+    list-style-type: none;
+}
+#list4{
+    display: none;
+    list-style-type: none;
+}
+#list5{
+    display: none;
+    list-style-type: none;
+}
+#list6{
+    display: none;
+    list-style-type: none;
+}
+#list7{
+    display: none;
+    list-style-type: none;
+}
+#list8{
+    display: none;
+    list-style-type: none;
+}
+#list9{
+    display: none;
+    list-style-type: none;
+}
+#list10{
+    display: none;
+    list-style-type: none;
+}
+#list11{
+    display: none;
+    list-style-type: none;
+}
+
+#select{
+    margin-left: 1250px;
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+h1{
+    text-align: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+h4{
+    font-family: "Lucida Console", "Courier New", monospace;
+    margin-left: 150px;
+}
+
+#product{
+    width: 75%;
+    height: 1000px;
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(auto);
+    margin-left: 40px;
+}
+
+#card{
+    width: 170px;
+    height: 480px;
+    /* border: 1px solid black; */
+    margin: auto;
+    justify-content: center;
+    
+}
+
+#img{
+    width: 170px;
+    height: 220px;
+}
+
+#brand{
+    margin-left: 0px;
+    text-align: center;
+    color: gray;
+    margin-top: -10px;
+}
+
+#name{
+    margin-left: 0px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+#category{
+    margin-left: 0px;
+    text-align: center;
+    color: blueviolet;
+}
+
+#price{
+    margin-left: 0px;
+    text-align: center;
+}
+
+#discount{
+    margin-left: 0px;
+    text-align: center;
+    color: red;
+    margin-top: -15px;
+}
+
+
+
