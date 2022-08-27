@@ -129,16 +129,17 @@ h4{
     height: 220px;
 }
 
-#title{
-    margin-left: 0px;
-    text-align: center;
-    color: gray;
-}
-
 #brand{
     margin-left: 0px;
     text-align: center;
-    margin-top: -15px;
+    color: gray;
+    margin-top: -10px;
+}
+
+#name{
+    margin-left: 0px;
+    text-align: center;
+    margin-top: 5px;
 }
 
 #category{
