@@ -578,5 +578,5 @@ function dropdown23(){
 
   function addlocalstorage(el){
     localStorage.setItem("arr",JSON.stringify(el))
-      window.location.href = ""
+      window.location.href = "../../checkout.html"
   }

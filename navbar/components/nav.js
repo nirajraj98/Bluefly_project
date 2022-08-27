@@ -1,35 +1,17 @@
-function nav(){
-    return`
+function nav() {
+  return `
     <div id="top">
-    <div id="blank"></div>
     <a href="index.html"><div class="icon"><img
-            src="https://cdn.shopify.com/s/files/1/0248/3473/6191/files/BLUEFLY-LOGO-11-20.png?v=1574278243">
-    </div></a>
-    <div class="nav">
-       
-    
-     
- 
-            <g fill="none" stroke="currentColor" stroke-width="2">
-                <circle cx="12" cy="7" r="5" />
-                <path stroke-linecap="round" stroke-linejoin="round"
-                    d="M17 14h.352a3 3 0 0 1 2.976 2.628l.391 3.124A2 2 0 0 1 18.734 22H5.266a2 2 0 0 1-1.985-2.248l.39-3.124A3 3 0 0 1 6.649 14H7" />
-            </g>
-        </svg>
-        <li>
-       
- 
-            <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                stroke-width="2">
-                <path
-                    d="M3.977 9.84A2 2 0 0 1 5.971 8h12.058a2 2 0 0 1 1.994 1.84l.803 10A2 2 0 0 1 18.833 22H5.167a2 2 0 0 1-1.993-2.16l.803-10Z" />
-                <path d="M16 11V6a4 4 0 0 0-4-4v0a4 4 0 0 0-4 4v5" />
-            </g>
-            
-        </svg>
-        </a>
-        </li>
+    src="https://cdn.shopify.com/s/files/1/0248/3473/6191/files/BLUEFLY-LOGO-11-20.png?v=1574278243">
     </div>
+    </a>
+    <div id="blank">
+    <input id="sin" ></input>
+        <img id="search" onclick = "se()" src="https://cdn-icons-png.flaticon.com/128/622/622669.png">
+        <img onclick="window.location.href= './Signuppage/Signuppage.html' "src="https://cdn-icons-png.flaticon.com/128/4526/4526817.png">
+        <img src="https://cdn-icons-png.flaticon.com/128/833/833314.png">
+    </div>
+    
  </div>
  
  <nav>
@@ -84,7 +66,7 @@ function nav(){
                             <a href="menshoes.html">MEN'S SHOES</a>
                             </h6>
                             <ul id="abcd">
-                                <li> <a> Valentino</a></li>
+                                <li> <a href='.././shubham/Product_data/Products.html'>adfadsf Valentino</a></li>
                                 <li> <a> MEN'S SHOES</li>
                                 <li> <a> Shop All</a></li>
                                 <li> <a> Boots</a></li>
@@ -382,7 +364,7 @@ function nav(){
                             <a href="menshoes.html">SHOES</a>
                             </h6>
                             <ul id="sixteen">
-                                <li> <a> Valentino</a></li>
+                                <li> <a href="./shubham/Product_data/Products.html"> Valentino</a></li>
                                 <li> <a> MEN'S SHOES</li>
                                 <li> <a> Shop All</a></li>
                                 <li> <a> Boots</a></li>
@@ -668,27 +650,20 @@ function nav(){
  </nav>
  <div id="black">
  <p>WELCOME TO BLUEFLY : luxury brand at discounted price</p>
- </div>`
- }
- 
- 
- 
- let time = () => {
-     let black = document.getElementById("black")
- 
- 
-     setInterval(() => {
-         black.innerHTML = "<p>WELCOME TO BLUEFLY : luxury brand at discounted price</p>"
-     }, 3000);
- 
- 
-     setInterval(() => {
-         black.innerHTML = "<p>FREE SHIPPING On Order Over $99</p>"
-     }, 6000);
- }
- 
- 
- 
- 
- export { nav, time };
- 
+ </div>`;
+}
+
+let time = () => {
+  let black = document.getElementById("black");
+
+  setInterval(() => {
+    black.innerHTML =
+      "<p>WELCOME TO BLUEFLY : luxury brand at discounted price</p>";
+  }, 3000);
+
+  setInterval(() => {
+    black.innerHTML = "<p>FREE SHIPPING On Order Over $99</p>";
+  }, 6000);
+};
+
+export { nav, time };
