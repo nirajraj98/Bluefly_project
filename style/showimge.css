@@ -51,7 +51,8 @@
     font-size:18px; 
    } 
 
-   #show_image div{
-    /* padding-bottom: 100px; */
-
+  
+   .paddingp {
+    height:210px;
    }
+   
