@@ -51,7 +51,32 @@ cart1.map(({ image1, brand, title, price }) => {
 })
 
 
-document.querySelector("#textValue").innerText = `Your Cart Total is (${cart1.length} items) $ ${Math.ceil(sum)}`;
+// document.querySelector("#textValue").innerText = `Your Cart Total is (${cart1.length} items) $ ${Math.ceil(sum)}`;
+//show product
+  
+let masai=JSON.parse(localStorage.getItem("masai-cart"))
+console.log(masai);
+append(masai);
+function append(data){
+    var sum = 0;
+    data.forEach(function(el){
+       let div4=document.createElement("div") ;
+       div4.setAttribute("class","div4id")
+       let img=document.createElement("img")
+       img.src=el.img;
+       let total=document.createElement("h4");
+       total.innerText=masai.length;
+       let cat=document.createElement("h4")
+       cat.innerText=el.category
+       let price=document.createElement("p")
+       price.innerText=el.price;
+       sum += Number(el.price);
+       document.querySelector("#sum").innerHTML = "Subtotal: " + sum;
+       div4.append(img,cat,price);
+       document.getElementById("insidecart").append(div4);
+       document.getElementById("total").innerText=`Your total cart : ${masai.length}`
+    })
+}
 
 
 

@@ -8,9 +8,9 @@ var flag = false;
 console.log(footer());
 
 function userlogin(event){
+//  window.location.href = '.././index.html'
 event.preventDefault();
 console.log("click")
-window.location.href = '.././index.html'
 let form = document.getElementById("forms1")
 
 let email = form.email.value;
@@ -20,9 +20,10 @@ let empty_data = JSON.parse(localStorage.getItem("data")) || [];
 
 empty_data.map(function(elem){
     if(email === elem.email && password ===  elem.password)
-{
-    flag = true;
-    alert("Login successful")
+    {
+        flag = true;
+        alert("Login successful")
+        // window.location.href="doo.html"
 }
 })
 if(flag === false)

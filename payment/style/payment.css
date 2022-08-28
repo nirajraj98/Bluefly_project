@@ -145,3 +145,7 @@
     border-bottom: 1px solid rgb(66, 64, 64);
 
 }
+.div4id{
+    display:flex;
+    justify-content: space-between;
+}

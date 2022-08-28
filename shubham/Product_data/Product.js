@@ -7,7 +7,7 @@ let clothes = [
   
         img2: "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/14197850/2021/6/5/e7cd037e-620a-4379-a686-9d1f6ba2b04a1622879758131USPoloAssnDenimCoMenMustardYellowBrandLogoPoloCollarT-shirt3.jpg",
         img3: "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/14197850/2021/6/5/4062b145-aa41-4b49-a695-00177803a8081622879758174USPoloAssnDenimCoMenMustardYellowBrandLogoPoloCollarT-shirt5.jpg",
-        price: "Rs. 399",
+        price: 399,
         category: "VLONE BLACK KODAK BLACK SHORT SLEEVE T-SHIRT",
         cost: 399,
         selling_cost: 999,
@@ -26,7 +26,7 @@ let clothes = [
         img1: "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/12377258/2020/9/11/b986f96f-c6ce-4ce7-a999-4dbb4cc9ccec1599798741760UrbanoFashionPrintedMenRoundNeckDarkGreenT-Shirt2.jpg",
         img2: "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/12377258/2020/9/11/30708cc5-d6f5-4343-b3b2-3cbcc618a2401599798741824UrbanoFashionPrintedMenRoundNeckDarkGreenT-Shirt3.jpg",
         img3: "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/12377258/2020/9/11/2e8c15be-cdd8-4636-9b4b-594bccfb7d7e1599798741882UrbanoFashionPrintedMenRoundNeckDarkGreenT-Shirt4.jpg",
-        price: "Rs. 499",
+        price: 499,
         cost: 499,
         selling_cost: 999,
         category: "VLONE BLACK KODAK BLACK SHORT SLEEVE T-SHIRT",
@@ -46,7 +46,7 @@ let clothes = [
         img2: "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/10941384/2020/2/13/af31bb93-c58d-4636-ba80-6897d28384541581587257405-Roadster-Men-Tshirts-8221581587255142-4.jpg",
         img3: "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/10941384/2020/2/13/f44ff5e4-181f-4a00-a310-8a6a1d5d592d1581587257365-Roadster-Men-Tshirts-8221581587255142-5.jpg",
   
-        price: "Rs. 599",
+        price: 599,
         cost: 599,
         selling_cost: 999,
         sellPrice: "Rs. 999",
@@ -65,7 +65,7 @@ let clothes = [
           img2: "https://rukminim1.flixcart.com/image/309/371/kdbzqfk0/t-shirt/9/c/v/m-b30906-adidas-original-imafu9dzrc4tazzu.jpeg?q=50",
           img3: "https://rukminim1.flixcart.com/image/309/371/l4zxn680/t-shirt/o/9/b/-original-imagfrzgh6dgphh8.jpeg?q=50",
         img: "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/16343396/2022/2/10/c5f6d701-a12f-41de-b751-2a318a0c20ba1644489749463-Levis-Men-Tshirts-9081644489748776-1.jpg",
-        price: "Rs. 843",
+        price: 843,
         cost: 843,
         selling_cost: 1284,
         sellPrice: "Rs. 1284",
@@ -84,7 +84,7 @@ let clothes = [
           img2: "https://rukminim1.flixcart.com/image/309/371/l0igvww0/t-shirt/c/n/0/m-ustsh0839-u-s-polo-assn-original-imagcadbhd9unjdg.jpeg?q=50",
           img3: "https://rukminim1.flixcart.com/image/309/371/l45xea80/t-shirt/d/c/k/-original-imagf4hsxtcjej7s.jpeg?q=50",
         img: "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/12318240/2021/2/27/b7f27330-eb9b-4cd8-9d2d-64239c4a5adb1614428943368-Calvin-Klein-Jeans-Men-Tshirts-2101614428942578-1.jpg",
-        price: "Rs. 843",
+        price: 843,
         selling_cost: 872,
         sellPrice: "Rs. 872",
         category: "VLONE BLACK KODAK BLACK SHORT SLEEVE T-SHIRT",
@@ -103,7 +103,7 @@ let clothes = [
           img2: "https://rukminim1.flixcart.com/image/309/371/kz8qsnk0/t-shirt/g/z/n/m-db1024-42-3bros-original-imagbawh38j3ghzr.jpeg?q=50",
           img3: "https://rukminim1.flixcart.com/image/309/371/jvsf3ww0/t-shirt/n/m/h/l-8339501-roadster-original-imafgmmpuxesrcb4.jpeg?q=50",
         img: "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/13345216/2021/2/25/ef8f64d1-0875-48dc-b664-bf560f9debb21614246856152-Mast--Harbour-Men-White-Printed-Round-Neck-T-shirt-339161424-1.jpg",
-        price: "Rs. 1139",
+        price: 1139,
         cost: 1139,
         selling_cost: 1874,
         sellPrice: "Rs. 1874",
@@ -121,7 +121,7 @@ let clothes = [
           img2: "https://rukminim1.flixcart.com/image/309/371/kdbzqfk0/t-shirt/9/c/v/m-b30906-adidas-original-imafu9dzrc4tazzu.jpeg?q=50",
           img3: "https://rukminim1.flixcart.com/image/309/371/l4zxn680/t-shirt/o/9/b/-original-imagfrzgh6dgphh8.jpeg?q=50",
         img: "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/12318240/2021/2/27/b7f27330-eb9b-4cd8-9d2d-64239c4a5adb1614428943368-Calvin-Klein-Jeans-Men-Tshirts-2101614428942578-1.jpg",
-        price: "Rs. 1379",
+        price: 1379,
         cost: 1379,
         selling_cost: 2299,
         sellPrice: "Rs. 2299",
@@ -140,7 +140,7 @@ let clothes = [
           img2: "https://rukminim1.flixcart.com/image/309/371/kc0u7bk0/t-shirt/m/e/p/l-5071-1-nivia-original-imaft849qxgztzzc.jpeg?q=50",
           img3: "https://rukminim1.flixcart.com/image/309/371/l3xcr680/t-shirt/0/f/h/-original-imagexszmm6spfae.jpeg?q=50",
         img: "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/11687264/2020/6/9/6fe28196-ea0a-4ea9-b132-8fdf8bbd9e4f1591703233064-Roadster-Men-Tshirts-4241591703231327-1.jpg",
-        price: "Rs. 1523",
+        price: 1523,
         cost: 1523,
         selling_cost: 2031,
         sellPrice: "Rs. 2031",
@@ -162,7 +162,7 @@ let clothes = [
         price: "Rs. 1499",
         cost: 1499,
         selling_cost: 1591,
-        sellPrice: "Rs. 1591",
+        sellPrice: 1591,
         dis: "(3% OFF)",
         category: "VLONE BLACK KODAK BLACK SHORT SLEEVE T-SHIRT",
         ratings: "4.1",
@@ -181,7 +181,7 @@ let clothes = [
         price: "Rs. 1099",
         cost: 1099,
         selling_cost: 1991,
-        sellPrice: "Rs. 1991",
+        sellPrice: 1991,
         dis: "(31% OFF)",
         category: "VLONE BLACK KODAK BLACK SHORT SLEEVE T-SHIRT",
         ratings: "4.3",
@@ -197,7 +197,7 @@ let clothes = [
           img2: "https://rukminim1.flixcart.com/image/580/696/l1jmc280/t-shirt/d/e/w/m-usts6152-u-s-polo-assn-original-imagd38qpp8mpccg.jpeg?q=50",
           img3: "https://rukminim1.flixcart.com/image/580/696/kq9ta4w0/t-shirt/q/p/z/l-723-2-723-5-723-8-ftx-original-imag4bmyugjm2grh.jpeg?q=50",
         img: "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/12816762/2021/1/13/2daea730-43cb-4a5a-9785-d251fb4333c51610534752348-HERENOW-Men-Tshirts-5681610534750290-1.jpg",
-        price: "Rs. 279",
+        price: 79,
         cost: 279,
         selling_cost: 291,
         sellPrice: "Rs. 291",
@@ -217,7 +217,7 @@ let clothes = [
           img2: "https://rukminim1.flixcart.com/image/580/696/kvtuxe80/t-shirt/6/x/l/l-14911222-here-now-original-imag8n2szuzcatmw.jpeg?q=50",
           img3: "https://rukminim1.flixcart.com/image/580/696/l3uhvgw0/t-shirt/t/n/i/m-ustshs1121-u-s-polo-association-original-imagevjezh7vufhs.jpeg?q=50",
         img: "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/productimage/2020/7/28/ae4458c8-d0a9-449f-a5e2-f690d7ea2eaf1595892161166-1.jpg",
-        price: "Rs. 359",
+        price: 359,
         cost: 359,
         selling_cost: 399,
         sellPrice: "Rs. 399",
@@ -239,7 +239,7 @@ let clothes = [
         img: "https://rukminim1.flixcart.com/image/309/371/kzegk280/t-shirt/o/o/a/m-udtsh0802-u-s-polo-assn-original-imagbf8rcgzmtnsh.jpeg?q=50",
         cost: 769,
         selling_cost: 899,
-        sellPrice: "Rs. 899",
+        sellPrice:899,
         dis: "(23% OFF)",
         category: "VLONE BLACK KODAK BLACK SHORT SLEEVE T-SHIRT",
         ratings: "4.3",
@@ -255,7 +255,7 @@ let clothes = [
           img2: "https://rukminim1.flixcart.com/image/580/696/kyxb9u80/t-shirt/l/l/o/3xl-udtsh0830-u-s-polo-assn-original-imagbfz5rxcxqhfg.jpeg?q=50",
           img3: "https://rukminim1.flixcart.com/image/580/696/kzrbiq80/t-shirt/0/b/g/m-ustsh0855-u-s-polo-assn-original-imagbzybcvxrs65f.jpeg?q=50",
         img: "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/17595630/2022/4/8/233c5a51-c004-47a5-bed2-cc6dfc616d3c1649394875858-AS-M-NK-DF-TEE-LGD-HUMOR-9241649394875293-1.jpg",
-        price: "Rs. 567",
+        price: 567,
         cost: 567,
         selling_cost: 599,
         sellPrice: "Rs. 599",
@@ -275,7 +275,7 @@ let clothes = [
           img2: "https://rukminim1.flixcart.com/image/309/371/l3xcr680/t-shirt/t/d/t/-original-imagexszh7auymps.jpeg?q=50",
           img3: "https://rukminim1.flixcart.com/image/580/696/kzogn0w0/t-shirt/z/d/v/m-ustsh0890-u-s-polo-assn-original-imagbmxu3fwkurfm.jpeg?q=50",
         img: "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/2314451/2018/5/24/7e14d698-6a1d-41ab-a348-9af9a87e8f2e1527137304977-HRX-by-Hrithik-Roshan-Men-Black-Solid-High-Neck-T-shirt-8511527137303720-1.jpg",
-        price: "Rs. 599",
+        price: 599,
         cost: 599,
         selling_cost: 699,
         sellPrice: "Rs. 699",
@@ -297,7 +297,7 @@ let clothes = [
         price: "Rs. 479",
         cost: 479,
         selling_cost: 849,
-        sellPrice: "Rs. 849",
+        sellPrice:849,
         dis: "(37% OFF)",
         category: "VLONE BLACK KODAK BLACK SHORT SLEEVE T-SHIRT",
         ratings: "4.6",
@@ -313,7 +313,7 @@ let clothes = [
           img2: "https://rukminim1.flixcart.com/image/309/371/kzrbiq80/t-shirt/h/q/w/m-ustsh0858-u-s-polo-assn-original-imagbzybwea8qt49.jpeg?q=50",
           img3: "https://rukminim1.flixcart.com/image/580/696/kuof5ow0/t-shirt/8/v/a/m-udtsh0641-u-s-polo-assn-original-imag7qyj2qhfz7zs.jpeg?q=50",
         img: "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/11487316/2020/6/17/7747f19e-1995-4c19-bd44-34b84d03defe1592395213591-Nautica-Men-Tshirts-1431592395211486-1.jpg",
-        price: "Rs. 579",
+        price: 579,
         cost: 579,
         selling_cost: 749,
         sellPrice: "Rs. 749",
@@ -332,7 +332,7 @@ let clothes = [
           img2: "https://rukminim1.flixcart.com/image/309/371/kz8qsnk0/t-shirt/u/r/k/m-db1024-42-3bros-original-imagbawhhwmrtptk.jpeg?q=50",
           img3: "https://rukminim1.flixcart.com/image/309/373/kz8qsnk0/t-shirt/u/r/k/m-db1024-42-3bros-original-imagbawhhwmrtptk.jpeg?q=50",
         img: "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/17979880/2022/5/5/d7d6bc6b-36c1-4c34-adff-5de285aee1ab1651747890769-Van-Heusen-Men-Tshirts-5251651747890233-1.jpg",
-        price: "Rs. 2139",
+        price:  2139,
         cost: 2139,
         selling_cost: 4249,
         sellPrice: "Rs. 4249",
@@ -352,7 +352,7 @@ let clothes = [
           img2: "https://rukminim1.flixcart.com/image/580/696/xif0q/t-shirt/l/t/s/s-ustsh0893-u-s-polo-assn-original-imagbhysbt4ywb52-bb.jpeg?q=50",
           img3: "https://rukminim1.flixcart.com/image/580/696/ky1vl3k0/t-shirt/w/w/n/3xl-udtsh0804-u-s-polo-assn-original-imagadg2bbfy58vd.jpeg?q=50",
         img: "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/8938197/2019/4/23/b3ea3fc3-8b56-49c9-a007-768f73ac95b91555999726007-Roadster-Men-Black-Printed-Round-Neck-T-shirt-61215559997244-1.jpg",
-        price: "Rs. 526",
+        price: 526,
         cost: 526,
         selling_cost: 749,
         sellPrice: "Rs. 749",
@@ -372,7 +372,7 @@ let clothes = [
           img2: "https://rukminim1.flixcart.com/image/580/696/l3xcr680/t-shirt/v/j/4/-original-imagexsyxyfvzdvn.jpeg?q=50",
           img3: "https://rukminim1.flixcart.com/image/580/696/l45xea80/t-shirt/a/x/x/-original-imagf4hsgvjnstqa.jpeg?q=50",
         img: "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/17471840/2022/3/31/29e4406e-7a9b-4a60-a5ca-b8bf02cd781a1648729180146-Louis-Philippe-ATHPLAY-Men-Tshirts-8781648729179069-1.jpg",
-        price: "Rs. 1339",
+        price:1339,
         cost: 1339,
         selling_cost: 2749,
         sellPrice: "Rs. 2749",
@@ -518,7 +518,7 @@ function dropdown23(){
 
       let price = document.createElement("h3")
       price.setAttribute("id","price")
-      price.textContent = el.price;
+      price.textContent ="$"+el.price;
 
       let dis_cost = document.createElement("h4")
       dis_cost.setAttribute('id','discount')
@@ -576,7 +576,9 @@ function dropdown23(){
    
   }
 
+  var arr=[]
   function addlocalstorage(el){
-    localStorage.setItem("arr",JSON.stringify(el))
+    arr.push(el)
+    localStorage.setItem("arr",JSON.stringify(arr))
       window.location.href = "../../checkout.html"
   }
