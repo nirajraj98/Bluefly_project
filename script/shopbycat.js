@@ -48,7 +48,7 @@ let obj = [
   },
 
   {
-    image: "https://cdn.shopify.com/s/files/1/0248/3473/6191/products/pd6460y2_30dd4014-20c2-4704-a864-1c7616a126ce_large.jpg?v=1658831599",
+    image: "https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/5/b/5b88fd0zpfk9805_0.jpg",
     title: "JEWELERY",
     img2:"https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-275,/pub/media/catalog/product/n/l/nl-pr-10613-1_fc07fac6.jpg?rnd=20200526195200"
   },

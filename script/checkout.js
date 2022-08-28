@@ -1,3 +1,10 @@
+// import { nav, time} from "../navbar/components/nav.js"
+// import footer from "../shubham1/footer1.js"
+
+// document.getElementById("footer").innerHTML = footer()
+// document.getElementById("navbar").innerHTML=nav()
+
+
 var show=JSON.parse(localStorage.getItem("arr"));
 // console.log(show)
 
